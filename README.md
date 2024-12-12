@@ -33,19 +33,20 @@
 
 ## Requirements
 
-Before you begin, ensure you have met the following requirements:
-
-- Python 3.6 or higher.
-- `requests` , `beautifulsoup4` and `aiogram==2.6` libraries.
+- Python 3.8 or higher.
+- `pyrofork`, `requests` and `beautifulsoup4` libraries.
 - A Telegram bot token (you can get one from [@BotFather](https://t.me/BotFather) on Telegram).
+- API ID and Hash: You can get these by creating an application on [my.telegram.org](https://my.telegram.org).
 
 ## Installation
 
-To install necessary utilities, run the following commands:
+To install `pyrofork`, `requests` and `beautifulsoup4` run the following command:
 
 ```bash
-pip install beautifulsoup4
-pip install aiogram==2.6
+pip install pyrofork requests beautifulsoup4
+```
+
+**Note: If you previously installed `pyrogram`, uninstall it before installing `pyrofork`.**
 ```
 
 ## Configuration
